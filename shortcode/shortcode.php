@@ -20,7 +20,7 @@
 
      ob_start();?>
      <style type="text/css">
-     .sh-bild-img{width:100%}.sh-bild-btns a{display:inline-block;padding:7px 12px;margin:3px;font-size:12px;letter-spacing:2px;line-height:1;text-align:center;vertical-align:middle;cursor:pointer;background:transparent;color:#fff;border:1px solid #fff;border-radius:100px;text-decoration:none;text-transform:uppercase}.sh-bild-btns a:hover{background:#000}.sh-bild-btns h4{color:#fff}.sh-bild img{webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1);-webkit-transition:all 400ms;transition:all 400ms}.sh-bild-overlay{opacity:0}.sh-bild-overlay:hover{opacity:1}
+     .sh-bild-img{width:100%;transition: all .2s ease-in-out}.sh-bild:hover .sh-bild-img{transform:scale(1.2)}.sh-bild-btns a{display:inline-block;padding:7px 12px;margin:3px;font-size:12px;letter-spacing:2px;line-height:1;text-align:center;vertical-align:middle;cursor:pointer;background:transparent;color:#fff;border:1px solid #fff;border-radius:100px;text-decoration:none;text-transform:uppercase}.sh-bild-btns a:hover{background:#000}.sh-bild-btns h4{color:#fff}.sh-bild img{webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1);-webkit-transition:all 400ms;transition:all 400ms}.sh-bild-overlay{opacity:0}.sh-bild-overlay:hover{opacity:1}
      </style>
      <?php
      $styles = ob_get_contents();
