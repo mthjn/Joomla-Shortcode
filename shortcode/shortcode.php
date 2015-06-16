@@ -20,7 +20,12 @@
 
      ob_start();?>
      <style type="text/css">
-     .sh-bild-img{width:100%;transition: all .2s ease-in-out}.sh-bild:hover .sh-bild-img{transform:scale(1.2)}.sh-bild-btns a{display:inline-block;padding:7px 12px;margin:3px;font-size:12px;letter-spacing:2px;line-height:1;text-align:center;vertical-align:middle;cursor:pointer;background:transparent;color:#fff;border:1px solid #fff;border-radius:100px;text-decoration:none;text-transform:uppercase}.sh-bild-btns a:hover{background:#000}.sh-bild-btns h4{color:#fff}.sh-bild img{webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1);-webkit-transition:all 400ms;transition:all 400ms}.sh-bild-overlay{opacity:0}.sh-bild-overlay:hover{opacity:1}
+     .clearfix {content:"";display:table;clear:both}.sh-bild-img{width:100%;transition: all .2s ease-in-out}.sh-bild:hover .sh-bild-img{transform:scale(1.2)}.sh-bild-btns a{display:inline-block;padding:7px 12px;margin:3px;font-size:12px;letter-spacing:2px;line-height:1;text-align:center;vertical-align:middle;cursor:pointer;background:transparent;color:#fff;border:1px solid #fff;border-radius:100px;text-decoration:none;text-transform:uppercase;-webkit-transform: scale3d(0, 0, 0);transform: scale3d(0, 0, 0);-webkit-transition: all 400ms;transition: all 400ms;}
+     .sh-bild-btns a:hover{background:#000;border:1px solid black}
+     .sh-bild-btns:hover a{-webkit-transform: scale3d(0, 0, 0); transform: scale3d(1,1,1); -webkit-transition: all 400ms; transition: all 400ms;}
+     .sh-bild-btns h4{opacity:0;color:#fff;-webkit-transform: translate3d(0, 15px, 0);transform: translate3d(0, 15px, 0);-webkit-transition: all 400ms;transition: all 400ms;}
+     .sh-bild-btns:hover h4{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}
+     .sh-bild img{webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1);-webkit-transition:all 400ms;transition:all 400ms}.sh-bild-overlay{opacity:0}.sh-bild-overlay:hover{opacity:1}
      </style>
      <?php
      $styles = ob_get_contents();
@@ -61,7 +66,8 @@
 
         ob_start();
         ?>
-      <div class="sh-bild" style="height: 400px;position: absolute;z-index: 1;top: 0px;left: 0px; visibility: visible;opacity: 1">
+    <div class="clearfix"></div>
+      <div class="sh-bild" style="height:auto;position:relative;z-index: 1;top: 0px;left: 0px; visibility: visible;opacity: 1">
          <div class="sh-bild-overlay-wrapper clearfix" style="overflow: hidden">
 
         <img class="sh-bild-img" style="position: relative" src="<?php echo $img; ?>" alt="">
