@@ -6,11 +6,14 @@
  * More
  * @link http://cocoate.com/jdev/plugin
  * @link http://learnwebtutorials.com/tutorial-creating-joomla-3-plugin
+ * Namespace
+ * @see plgContentShortcode, xml file
  */
 
 defined('_JEXEC') or die;
 
 //jimport('joomla.plugin.plugin');
+
 
 class plgContentShortcode extends JPlugin
 {
