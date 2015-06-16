@@ -1,10 +1,15 @@
 ### Joomla-Shortcode
 ##### Joomla shortcode plugin
+  
+Plugin to implement shortcodes into Joomla where unlike in Wordpress there is no Shortcode API.  
+  
+The plugin parses shortcodes in all Joomla content looking for matrching RegEx.  
+It explodes the string saving parts of it into variables.  
 
-Simple plugin to parse shortcodes in Joomla content.
-
-##### Usage
+##### Default Usage
 
       {bild url=/some/location/of/a/page}{img=/some/location/of/an/image.jpg}{tt=Title}
 
-Paste into Articles. Will be rendered in the frontend -  the output is an image with Title and button overlay on hover.
+Paste into Articles. Will be rendered in the frontend -  the output is an image with Title and button overlay on hover mimicking [SP Simple Portfolio images](http://demo.joomshaper.com/extensions/sp-simple-portfolio) (when you only want the images not the content system around it, it's for you).  
+  
+Create your own shortcode (onContentPrepare) and change the CSS flushed into header (onBeforeCompileHead)  
