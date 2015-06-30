@@ -5,11 +5,7 @@ Plugin to implement shortcodes into Joomla where unlike in Wordpress there is no
   
 The plugin parses shortcodes in all Joomla content looking for matching RegEx.  
 It explodes the string saving parts of it into variables.  
-
-### Check the develompent branch for more functions
-[and nicer code](https://github.com/mthjn/Joomla-Shortcode/tree/development)  
-![Dev Branch](http://i.giphy.com/xTiTnha7sQBSXcl4SA.gif)
-
+  
 ##### Default Usage
 
       {bild url=/some/location/of/a/page}{img=/some/location/of/an/image.jpg}{tt=Title}
@@ -24,3 +20,5 @@ Will work in Custom HTML module once you have ticked YES on tab "Options" for *P
 ##### Modifications  
 
 Create your own shortcode (onContentPrepare) and change the CSS flushed into header (onBeforeCompileHead)  
+
+![Dev Branch](http://i.giphy.com/xTiTnha7sQBSXcl4SA.gif)
