@@ -188,7 +188,7 @@ public function temp_ifr($img, $url, $t){
        </div>
      </div>
      <div style="display:none">
-     <iframe class="lightbox" src="<?php echo $url; ?>&tmpl=component&print=1&layout=default&page="  width="700" height="600" id="<?php echo $t; ?>" style="border:none;padding-top:20px;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+     <iframe class="lightbox" src="<?php echo $url; ?>&tmpl=component&print=1"  width="700" height="600" id="<?php echo $t; ?>" style="border:none;padding-top:20px;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
      </div>
   <?php
 }//template iframe
