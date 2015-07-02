@@ -8,7 +8,7 @@ It explodes the string saving parts of it into variables.
 
 #### Perks
   
-###### Current state of shortcodes
+###### > Current state of shortcodes
   
 The shorts implemented in version 0.3 mimick the portfolio CMS plugins without having to deal with all the backend stuff and only get the nice pictures.  
   
@@ -18,19 +18,19 @@ The shorts implemented in version 0.3 mimick the portfolio CMS plugins without h
 - Show image with hover overlay with ZOOM button link to magnified prettyphotoed lightboxed bg image
 - Show image with hover overlay with ZOOM button link to a text field -- an iframed Joomla page with no header and footer
 
-###### Default Usage
+###### > Default Usage
   
       {bild url=/some/location/of/a/page}{img=/some/location/of/an/image.jpg}{tt=Title}
 
 Paste into Articles. Will be rendered in the frontend -  the output is an image with Title and button overlay on hover mimicking [SP Simple Portfolio images](http://demo.joomshaper.com/extensions/sp-simple-portfolio) (when you only want the images not the content system around it, it's for you).  
   
   
-###### Joomla Custom HTML module  
+###### > Joomla Custom HTML module  
   
 Will work in Custom HTML module once you have ticked YES on tab "Options" for *Prepare Content*.  
 You can insert this as a module into pages via (SP Page Builder)[http://www.joomshaper.com/page-builder] or similar extension - very user friendly  
 
-###### Link to iframe  
+###### > Link to iframe  
   
 Links to an iframe within Joomla installations: Page with no nice menu link can be set as URL in the shortcode, the shortcode type {iframe} will append a string query that will spit the page in a print-ready mode which will remove the header and footer. The iframe content can be a SP Page Builder page - editable by a non-techie person.  
   
