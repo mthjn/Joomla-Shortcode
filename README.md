@@ -1,10 +1,12 @@
 ### Joomla-Shortcode Plugin
-###### Makes it possible to use shortcodes within Joomla
+###### Makes it possible to use shortcodes. Written for Joomla 3.4
   
 Plugin to implement shortcodes into Joomla where unlike in Wordpress there is no Shortcode API.  
   
 The plugin parses shortcodes in all Joomla content looking for matching RegEx.  
 It explodes the string saving parts of it into variables.  
+   
+There is [branch](https://github.com/mthjn/Joomla-Shortcode/tree/JoomlaShortcode-0.1) with older version. Code presumably even more of a pigsty, but more field tested. [Install zip available.](https://github.com/mthjn/Joomla-Shortcode/tree/JoomlaShortcode-0.1/shortcode-0.1)   
 
 #### Perks
   
