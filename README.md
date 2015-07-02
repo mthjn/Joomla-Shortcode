@@ -37,9 +37,9 @@ Links to an iframe within Joomla installations: Page with no nice menu link can 
 #### Modify it  
   
 Your own regex condition   
-(onContentPrepare, line 45 and lower)[https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php]  
+[onContentPrepare, line 45 and lower](https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php)  
   
 Your CSS into header  
-(onBeforeCompileHead, line 23)[https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php]    
+[onBeforeCompileHead, line 23](https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php)    
   
 ![Short0.2](http://i.giphy.com/xTiTnha7sQBSXcl4SA.gif)
