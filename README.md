@@ -32,4 +32,4 @@ Your own regex condition
 Your CSS into header 
 (onBeforeCompileHead, line 23)[https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php]    
 
-(http://i.giphy.com/xTiTnha7sQBSXcl4SA.gif)
+![Short0.2](http://i.giphy.com/xTiTnha7sQBSXcl4SA.gif)
