@@ -11,7 +11,8 @@ It explodes the string saving parts of it into variables.
 ###### Current state of shortcodes
   
 The shorts implemented in version 0.3 mimick the portfolio CMS plugins without having to deal with all the backend stuff and only get the nice pictures.  
-**Functions**  
+  
+*Functions*  
 - Show image with hover overlay with VIEW link leading to another page
 - Show image with hover overlay with VIEW and ZOOM button links leading to new page and to magnified prettyphotoed lightboxed bg image, respectively.
 - Show image with hover overlay with ZOOM button link to magnified prettyphotoed lightboxed bg image
