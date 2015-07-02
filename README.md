@@ -32,13 +32,13 @@ You can insert this as a module into pages via (SP Page Builder)[http://www.joom
 
 ###### Link to iframe  
   
-
-
+Links to an iframe within Joomla installations: Page with no nice menu link can be set as URL in the shortcode, the shortcode type {iframe} will append a string query that will spit the page in a print-ready mode which will remove the header and footer. The iframe content can be a SP Page Builder page - editable by a non-techie person.  
+  
 #### Modify it  
   
 Your own regex condition   
 (onContentPrepare, line 45 and lower)[https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php]  
-
+  
 Your CSS into header  
 (onBeforeCompileHead, line 23)[https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php]    
   
