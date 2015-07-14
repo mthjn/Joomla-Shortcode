@@ -1,5 +1,5 @@
 ### Joomla-Shortcode Plugin
-###### Makes it possible to use shortcodes. Written for Joomla 3.4
+###### Parse all content for shortcodes. Written for Joomla 3.4
   
 Plugin to implement shortcodes into Joomla where unlike in Wordpress there is no Shortcode API.  
   
@@ -7,6 +7,27 @@ The plugin parses shortcodes in all Joomla content looking for matching RegEx.
 It explodes the string saving parts of it into variables.  
    
 There is [branch](https://github.com/mthjn/Joomla-Shortcode/tree/JoomlaShortcode-0.1) with older version. Code presumably even more of a pigsty, but more field tested. [Install zip available.](https://github.com/mthjn/Joomla-Shortcode/tree/JoomlaShortcode-0.1/shortcode-0.1)   
+  
+#### Modify it  
+  
+Your own shortcode   
+  
+  
+     //add yours
+     $this->doParseIframe( $article );
+  
+ 
+[onContentPrepare, ref line 21](https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php)  
+  
+Your CSS into header  
+  
+    //change or add link to your file
+     $this->getStyles();
+  
+  
+[onBeforeCompileHead, ref on line 17](https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php)    
+  
+![Short0.2](http://i.giphy.com/xTiTnha7sQBSXcl4SA.gif)
 
 #### Perks
   
@@ -36,12 +57,4 @@ You can insert this as a module into pages via (SP Page Builder)[http://www.joom
   
 Links to an iframe within Joomla installations: Page with no nice menu link can be set as URL in the shortcode, the shortcode type {iframe} will append a string query that will spit the page in a print-ready mode which will remove the header and footer. The iframe content can be a SP Page Builder page - editable by a non-techie person.  
   
-#### Modify it  
-  
-Your own regex condition   
-[onContentPrepare, line 45 and lower](https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php)  
-  
-Your CSS into header  
-[onBeforeCompileHead, line 23](https://github.com/mthjn/Joomla-Shortcode/blob/master/shortcode-0.3/shortcode.php)    
-  
-![Short0.2](http://i.giphy.com/xTiTnha7sQBSXcl4SA.gif)
+
