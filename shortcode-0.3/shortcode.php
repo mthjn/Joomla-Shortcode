@@ -18,6 +18,10 @@
    }
    function onContentPrepare( $context, &$article, &$params, $limitstart=0 )
    {
+     // check to determine whether text should be processed further
+     if (strpos($article->text, 'iframe url') === false && strpos($article->text, 'bild url') === false && strpos($article->text, 'beide url') === false  && strpos($article->text, 'zoom url') === false) {
+       return true;
+     }
      //add yours
      $this->doParseIframe( $article );
      $this->doParseView( $article );
