@@ -113,7 +113,7 @@
           }
       public function getRandString( $t ) {
          $toAppend = substr( "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" ,mt_rand( 0 ,50 ) ,1 ) .substr( md5( time() ), 1);
-         $dataid = $t . $toAppend;
+         $dataid = "lightbox" . $toAppend;
           return $dataid;
       }
 
