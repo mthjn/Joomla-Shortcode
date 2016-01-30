@@ -51,7 +51,7 @@ Paste into Articles. Will be rendered in the frontend -  the output is an image 
 ###### > Joomla Custom HTML module  
   
 Will work in Custom HTML module once you have ticked YES on tab "Options" for *Prepare Content*.  
-You can insert this as a module into pages via (SP Page Builder)[http://www.joomshaper.com/page-builder] or similar extension - very user friendly  
+You can insert this as a module into pages via [SP Page Builder](http://www.joomshaper.com/page-builder) or similar extension - very user friendly  
 
 ###### > Link to iframe  
   
