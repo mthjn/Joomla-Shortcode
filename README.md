@@ -1,3 +1,7 @@
+**This plugin needs to have the classic Custom HTML module available - not the new Custom HTML Advanced with separate HTMl and CSS inputs.**
+
+
+
 ### Joomla-Shortcode Plugin
 ###### Parse all content for shortcodes. Written for Joomla 3.4
   
